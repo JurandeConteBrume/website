@@ -1104,4 +1104,77 @@ footer {
   .cta-content p {
     font-size: 1.1em;
   }
+
+  /* === ÉDITEURS PARTENAIRES === */
+.festival-partners-games {
+    padding: 60px 20px;
+    background: #fff;
+    margin: 40px 0;
+}
+
+.partners-games-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.festival-partners-games h2 {
+    font-family: var(--font-title);
+    color: var(--bleu);
+    font-size: 2.1rem;
+    margin-bottom: 15px;
+}
+
+.partners-subtitle {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.editors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.editor-item {
+    background: linear-gradient(135deg, var(--bleu-clair) 0%, #e8f3ff 100%);
+    color: var(--bleu);
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.editor-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(37, 116, 169, 0.15);
+    border-color: var(--bleu);
+}
+
+.partners-thanks {
+    font-size: 1.2em;
+    color: var(--bleu);
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .editors-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 12px;
+    }
+    
+    .editor-item {
+        padding: 12px 16px;
+        font-size: 1em;
+    }
+}
+
 }
