@@ -1,6 +1,6 @@
 /*
-  Style principal inspiré du template pâtisserie pour Jurande Jeux
-  Palette : blanc, rose clair (#ee6e73/#f8b6b9), gris clair, noir/gris foncé pour le texte
+  Style principal pour Jurande Jeux
+  Palette : Bleu (#2574a9), Orange (#ff6b35), Violet (#667eea), Vert (#2d7d32)
   Font : 'Pacifico' pour titres, 'Roboto' pour texte
 */
 
@@ -14,10 +14,13 @@
   --orange-clair: #ffb8a1;
   --violet: #667eea;
   --violet-fonce: #764ba2;
+  --vert: #2d7d32;
+  --vert-clair: #c8e6c9;
   --font-title: 'Pacifico', cursive;
   --font-text: 'Roboto', Arial, sans-serif;
 }
 
+/* === BASE === */
 html, body {
   margin: 0;
   padding: 0;
@@ -26,6 +29,7 @@ html, body {
   color: var(--noir);
 }
 
+/* === HEADER === */
 header {
   background: #fff;
   display: block;
@@ -39,6 +43,7 @@ header {
   overflow: hidden;
   background: #fff;
 }
+
 .bandeau-img {
   display: block;
   width: 100%;
@@ -48,6 +53,7 @@ header {
   margin: 0 auto;
 }
 
+/* === NAVIGATION === */
 nav ul {
   list-style: none;
   display: flex;
@@ -55,6 +61,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav a {
   text-decoration: none;
   color: var(--noir);
@@ -63,13 +70,32 @@ nav a {
   transition: color 0.2s;
   padding-bottom: 3px;
 }
+
 nav a.active,
 nav a:hover {
   color: var(--bleu);
   border-bottom: 2px solid var(--bleu);
 }
 
-/* Bandeau festival */
+.festival-link {
+  background: linear-gradient(135deg, var(--orange), #f7931e) !important;
+  color: white !important;
+  border-radius: 15px;
+  padding: 8px 15px !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-bottom: none !important;
+}
+
+.festival-link:hover,
+.festival-link.active {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  border-bottom: none !important;
+  color: white !important;
+}
+
+/* === BANDEAU FESTIVAL === */
 .festival-banner {
   background: linear-gradient(135deg, var(--orange), #f7931e);
   color: white;
@@ -110,50 +136,37 @@ nav a:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* Navigation festival */
-.festival-link {
-  background: linear-gradient(135deg, var(--orange), #f7931e) !important;
-  color: white !important;
-  border-radius: 15px;
-  padding: 8px 15px !important;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  border-bottom: none !important;
-}
-
-.festival-link:hover,
-.festival-link.active {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
-  border-bottom: none !important;
-  color: white !important;
-}
-
+/* === HERO SECTION === */
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #e3e7ea;
-  padding: 40px 10vw 40px 10vw;
+  padding: 40px 10vw;
   min-height: 350px;
   gap: 40px;
 }
+
 .hero-content {
   flex: 1;
 }
+
 .hero-content h1 {
   font-family: var(--font-title);
   font-size: 2.7rem;
   color: var(--bleu);
   margin-bottom: 10px;
 }
+
 .hero-content .highlight {
   color: var(--bleu);
 }
+
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 28px;
 }
+
 .cta-btn {
   background: var(--bleu);
   color: #fff;
@@ -168,16 +181,19 @@ nav a:hover {
   box-shadow: 0 2px 8px #0001;
   display: inline-block;
 }
+
 .cta-btn:hover {
   background: var(--bleu-clair);
   color: var(--bleu);
 }
+
 .hero-img img {
   width: 270px;
   border-radius: 18px;
   box-shadow: 0 4px 24px #0002;
 }
 
+/* === FEATURES SECTION === */
 .features {
   background: #fff;
   display: flex;
@@ -188,39 +204,46 @@ nav a:hover {
   border-radius: 0 0 20px 20px;
   box-shadow: 0 6px 22px #0001;
 }
+
 .feature {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 220px;
 }
+
 .feature img {
   height: 70px;
   margin-bottom: 12px;
 }
+
 .feature h3 {
   font-family: var(--font-title);
   color: var(--bleu);
   margin: 8px 0 6px 0;
   font-size: 1.25rem;
 }
+
 .feature p {
   text-align: center;
   color: #444;
   font-size: 1rem;
 }
 
+/* === GAMES SECTION === */
 .best-games {
   padding: 30px 0 50px 0;
   background: var(--gris-clair);
   text-align: center;
 }
+
 .best-games h2 {
   font-family: var(--font-title);
   color: var(--bleu);
   font-size: 2.1rem;
   margin-bottom: 35px;
 }
+
 .games-list {
   display: flex;
   justify-content: center;
@@ -228,6 +251,7 @@ nav a:hover {
   flex-wrap: wrap;
   margin-bottom: 25px;
 }
+
 .game-card {
   background: #fff;
   border-radius: 16px;
@@ -239,10 +263,12 @@ nav a:hover {
   align-items: center;
   transition: transform 0.15s, box-shadow 0.15s;
 }
+
 .game-card:hover {
   transform: translateY(-7px) scale(1.04);
   box-shadow: 0 8px 24px #0002;
 }
+
 .game-card img {
   width: 140px;
   height: 140px;
@@ -251,12 +277,14 @@ nav a:hover {
   margin-bottom: 13px;
   box-shadow: 0 2px 10px #0001;
 }
+
 .game-card h4 {
   font-family: var(--font-title);
   color: var(--bleu);
   font-size: 1.15rem;
   margin: 7px 0 3px 0;
 }
+
 .game-card p {
   color: #444;
   font-size: 0.98rem;
@@ -264,17 +292,20 @@ nav a:hover {
   text-align: center;
 }
 
+/* === CALENDAR SECTION === */
 .calendar {
-  padding: 40px 0 40px 0;
+  padding: 40px 0;
   background: var(--gris-clair);
   text-align: center;
 }
+
 .calendar h2 {
   font-family: var(--font-title);
   color: var(--bleu);
   font-size: 2.1rem;
   margin-bottom: 30px;
 }
+
 .calendar-month {
   margin: 0 auto 18px auto;
   border-collapse: collapse;
@@ -287,6 +318,7 @@ nav a:hover {
   width: 98%;
   table-layout: fixed;
 }
+
 .calendar-month th {
   background: var(--bleu-clair);
   color: var(--bleu);
@@ -295,6 +327,7 @@ nav a:hover {
   padding: 10px 0;
   border-bottom: 2px solid var(--bleu);
 }
+
 .calendar-month td {
   height: 68px;
   width: 14.28%;
@@ -307,35 +340,42 @@ nav a:hover {
   position: relative;
   padding: 4px 2px 2px 2px;
 }
+
 .calendar-month tr:nth-child(even) td {
   background: #f8f8f8;
 }
+
 .calendar-month td span {
   font-weight: bold;
   font-size: 1.08rem;
   display: block;
   margin-bottom: 2px;
 }
+
 .calendar-month .event {
   background: var(--bleu-clair);
   border: 2px solid var(--bleu);
   border-radius: 10px;
   box-shadow: 0 2px 8px #ee6e7322;
 }
+
 .calendar-month .event img {
   height: 26px;
   vertical-align: middle;
   margin: 0 1px 2px 0;
 }
+
 .calendar-month .evt {
   font-size: 0.92rem;
   color: var(--bleu);
   font-family: var(--font-title);
   margin-top: 0px;
 }
+
 .calendar-month .jdr img[alt="JDR"] {
   margin-left: 6px;
 }
+
 .calendar-legend {
   margin: 18px 0 6px 0;
   display: flex;
@@ -344,6 +384,7 @@ nav a:hover {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .calendar-legend span {
   display: flex;
   align-items: center;
@@ -351,17 +392,19 @@ nav a:hover {
   color: #333;
   gap: 6px;
 }
+
 .calendar-legend img {
   height: 24px;
   margin-right: 4px;
 }
+
 .calendar-info {
   color: #666;
   font-size: 1rem;
   margin-top: 10px;
 }
 
-/* Section lieu */
+/* === LOCATION SECTION === */
 .location {
   padding: 60px 20px;
   background: var(--gris-clair);
@@ -440,6 +483,7 @@ nav a:hover {
   color: var(--orange);
 }
 
+/* === ABOUT SECTION === */
 .about {
   background: #fff;
   margin: 40px auto 0 auto;
@@ -448,47 +492,57 @@ nav a:hover {
   box-shadow: 0 2px 14px #0001;
   max-width: 900px;
 }
+
 .about h2 {
   font-family: var(--font-title);
   color: var(--bleu);
   font-size: 1.7rem;
   margin-bottom: 18px;
 }
+
 .about p {
   color: #333;
   font-size: 1.08rem;
 }
 
+/* === FOOTER === */
 footer {
   background: #fff;
   margin-top: 45px;
   border-top: 2px solid var(--gris-moyen);
   padding: 0;
 }
+
 .footer-content {
   text-align: center;
   padding: 30px 0 12px 0;
 }
+
 .footer-content h3 {
   font-family: var(--font-title);
   color: var(--bleu);
   margin-bottom: 7px;
 }
+
 .footer-content p {
   margin: 3px 0;
   color: #444;
 }
+
 .socials {
   margin-top: 10px;
 }
+
 .socials a {
   display: inline-block;
   margin: 0 7px;
   transition: transform 0.15s;
 }
+
 .socials a:hover {
   transform: scale(1.12);
 }
+
 .footer-bottom {
   background: var(--gris-moyen);
   color: #777;
@@ -498,7 +552,7 @@ footer {
   border-radius: 0 0 12px 12px;
 }
 
-/* === STYLES SPÉCIFIQUES PAGE FESTIVAL === */
+/* === PAGE FESTIVAL === */
 
 /* Hero festival */
 .festival-hero {
@@ -698,6 +752,137 @@ footer {
   line-height: 1.6;
 }
 
+/* === PARTENAIRES === */
+
+/* Étiquettes de type */
+.partner-type {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ASSOCIATIONS - Bleu */
+.partner-asso {
+  border-left: 4px solid var(--bleu);
+  background: linear-gradient(135deg, #fff 0%, #f8fbff 100%);
+}
+
+.partner-asso .partner-type {
+  background: var(--bleu-clair);
+  color: var(--bleu);
+}
+
+.partner-asso .partner-link {
+  border-color: var(--bleu);
+  color: var(--bleu);
+}
+
+.partner-asso .partner-link:hover {
+  background: var(--bleu-clair);
+}
+
+/* PROFESSIONNELS - Orange */
+.partner-pro {
+  border-left: 4px solid var(--orange);
+  background: linear-gradient(135deg, #fff 0%, #fff8f5 100%);
+}
+
+.partner-pro .partner-type {
+  background: var(--orange-clair);
+  color: var(--orange);
+}
+
+.partner-pro .partner-link {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.partner-pro .partner-link:hover {
+  background: var(--orange-clair);
+}
+
+/* ÉDITEURS - Violet */
+.partner-editeur {
+  border-left: 4px solid var(--violet);
+  background: linear-gradient(135deg, #fff 0%, #f8f7ff 100%);
+}
+
+.partner-editeur .partner-type {
+  background: #d1c8ff;
+  color: var(--violet);
+}
+
+.partner-editeur .partner-link {
+  border-color: var(--violet);
+  color: var(--violet);
+}
+
+.partner-editeur .partner-link:hover {
+  background: #d1c8ff;
+}
+
+/* INSTITUTIONNELS - Vert */
+.partner-institutionnel {
+  border-left: 4px solid var(--vert);
+  background: linear-gradient(135deg, #fff 0%, #f1f8e9 100%);
+}
+
+.partner-institutionnel .partner-type {
+  background: var(--vert-clair);
+  color: var(--vert);
+}
+
+.partner-institutionnel .partner-link {
+  border-color: var(--vert);
+  color: var(--vert);
+}
+
+.partner-institutionnel .partner-link:hover {
+  background: var(--vert-clair);
+}
+
+/* Liens partenaires */
+.partner-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-top: 15px;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.partner-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.partner-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.partner-link.disabled {
+  color: #999 !important;
+  border-color: #ddd !important;
+  cursor: not-allowed;
+}
+
+.partner-link.disabled:hover {
+  background: none !important;
+  transform: none;
+  box-shadow: none;
+}
+
 /* Informations pratiques */
 .festival-practical {
   padding: 60px 20px;
@@ -788,30 +973,33 @@ footer {
   color: var(--violet);
 }
 
-/* Responsive Design */
+/* === RESPONSIVE === */
 @media (max-width: 900px) {
   .hero {
     flex-direction: column;
     text-align: center;
     padding: 30px 2vw;
   }
+  
   .hero-img img {
     margin-top: 20px;
   }
+  
   .features {
     flex-direction: column;
     gap: 30px;
     padding: 30px 0;
   }
+  
   .games-list {
     flex-direction: column;
     gap: 25px;
   }
+  
   .about {
     padding: 30px 4vw;
   }
   
-  /* Festival responsive */
   .location-content {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -855,26 +1043,29 @@ footer {
     padding: 0 10px;
     align-items: flex-start;
   }
+  
   .bandeau-logo {
     margin: 15px 0 0 10px;
     height: 60px;
   }
+  
   nav ul {
     gap: 15px;
     font-size: 0.98rem;
     flex-wrap: wrap;
     padding: 10px;
   }
+  
   .features {
     border-radius: 0;
     box-shadow: none;
   }
+  
   .about {
     border-radius: 0;
     box-shadow: none;
   }
   
-  /* Festival mobile */
   .festival-banner-content h3 {
     font-size: 1em;
   }
@@ -913,183 +1104,4 @@ footer {
   .cta-content p {
     font-size: 1.1em;
   }
-  .activity-card h3 a {
-    color: var(--bleu);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.activity-card h3 a:hover {
-    color: var(--orange);
-    text-decoration: underline;
-}
-/* Style des liens partenaires */
-.partner-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    color: var(--bleu);
-    text-decoration: none;
-    font-size: 0.9em;
-    font-weight: 500;
-    margin-top: 15px;
-    padding: 6px 12px;
-    border: 1px solid var(--bleu-clair);
-    border-radius: 15px;
-    transition: all 0.3s ease;
-}
-
-.partner-link:hover {
-    background: var(--bleu-clair);
-    color: var(--bleu);
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.partner-link svg {
-    width: 16px;
-    height: 16px;
-}
-
-.partner-link.disabled {
-    color: #999;
-    border-color: #ddd;
-    cursor: not-allowed;
-}
-
-.partner-link.disabled:hover {
-    background: none;
-    transform: none;
-    box-shadow: none;
-}
-  /* INSTITUTIONNELS - Vert/Or */
-.partner-institutionnel {
-    border-left: 4px solid #2d7d32;
-    background: linear-gradient(135deg, #fff 0%, #f1f8e9 100%);
-}
-
-.partner-institutionnel .partner-type {
-    background: #c8e6c9;
-    color: #2d7d32;
-}
-
-.partner-institutionnel .partner-link {
-    border-color: #2d7d32;
-    color: #2d7d32;
-}
-
-.partner-institutionnel .partner-link:hover {
-    background: #c8e6c9;
-}
-/* Étiquettes de type de partenaire */
-.partner-type {
-    display: inline-block;
-    font-size: 0.75em;
-    font-weight: bold;
-    padding: 4px 12px;
-    border-radius: 12px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Styles différents par type de partenaire */
-
-/* ASSOCIATIONS - Bleu */
-.partner-asso {
-    border-left: 4px solid var(--bleu);
-    background: linear-gradient(135deg, #fff 0%, #f8fbff 100%);
-}
-
-.partner-asso .partner-type {
-    background: var(--bleu-clair);
-    color: var(--bleu);
-}
-
-.partner-asso .partner-link {
-    border-color: var(--bleu);
-    color: var(--bleu);
-}
-
-.partner-asso .partner-link:hover {
-    background: var(--bleu-clair);
-}
-
-/* PROFESSIONNELS - Orange */
-.partner-pro {
-    border-left: 4px solid var(--orange);
-    background: linear-gradient(135deg, #fff 0%, #fff8f5 100%);
-}
-
-.partner-pro .partner-type {
-    background: var(--orange-clair);
-    color: var(--orange);
-}
-
-.partner-pro .partner-link {
-    border-color: var(--orange);
-    color: var(--orange);
-}
-
-.partner-pro .partner-link:hover {
-    background: var(--orange-clair);
-}
-
-/* ÉDITEURS - Violet */
-.partner-editeur {
-    border-left: 4px solid var(--violet);
-    background: linear-gradient(135deg, #fff 0%, #f8f7ff 100%);
-}
-
-.partner-editeur .partner-type {
-    background: #d1c8ff;
-    color: var(--violet);
-}
-
-.partner-editeur .partner-link {
-    border-color: var(--violet);
-    color: var(--violet);
-}
-
-.partner-editeur .partner-link:hover {
-    background: #d1c8ff;
-}
-
-/* Style des liens partenaires (mise à jour) */
-.partner-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    text-decoration: none;
-    font-size: 0.9em;
-    font-weight: 500;
-    margin-top: 15px;
-    padding: 6px 12px;
-    border: 1px solid;
-    border-radius: 15px;
-    transition: all 0.3s ease;
-}
-
-.partner-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.partner-link svg {
-    width: 16px;
-    height: 16px;
-}
-
-.partner-link.disabled {
-    color: #999 !important;
-    border-color: #ddd !important;
-    cursor: not-allowed;
-}
-
-.partner-link.disabled:hover {
-    background: none !important;
-    transform: none;
-    box-shadow: none;
-}
-
 }
