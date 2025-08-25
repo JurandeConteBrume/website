@@ -962,4 +962,134 @@ footer {
     transform: none;
     box-shadow: none;
 }
+  /* INSTITUTIONNELS - Vert/Or */
+.partner-institutionnel {
+    border-left: 4px solid #2d7d32;
+    background: linear-gradient(135deg, #fff 0%, #f1f8e9 100%);
+}
+
+.partner-institutionnel .partner-type {
+    background: #c8e6c9;
+    color: #2d7d32;
+}
+
+.partner-institutionnel .partner-link {
+    border-color: #2d7d32;
+    color: #2d7d32;
+}
+
+.partner-institutionnel .partner-link:hover {
+    background: #c8e6c9;
+}
+/* Étiquettes de type de partenaire */
+.partner-type {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Styles différents par type de partenaire */
+
+/* ASSOCIATIONS - Bleu */
+.partner-asso {
+    border-left: 4px solid var(--bleu);
+    background: linear-gradient(135deg, #fff 0%, #f8fbff 100%);
+}
+
+.partner-asso .partner-type {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+}
+
+.partner-asso .partner-link {
+    border-color: var(--bleu);
+    color: var(--bleu);
+}
+
+.partner-asso .partner-link:hover {
+    background: var(--bleu-clair);
+}
+
+/* PROFESSIONNELS - Orange */
+.partner-pro {
+    border-left: 4px solid var(--orange);
+    background: linear-gradient(135deg, #fff 0%, #fff8f5 100%);
+}
+
+.partner-pro .partner-type {
+    background: var(--orange-clair);
+    color: var(--orange);
+}
+
+.partner-pro .partner-link {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+.partner-pro .partner-link:hover {
+    background: var(--orange-clair);
+}
+
+/* ÉDITEURS - Violet */
+.partner-editeur {
+    border-left: 4px solid var(--violet);
+    background: linear-gradient(135deg, #fff 0%, #f8f7ff 100%);
+}
+
+.partner-editeur .partner-type {
+    background: #d1c8ff;
+    color: var(--violet);
+}
+
+.partner-editeur .partner-link {
+    border-color: var(--violet);
+    color: var(--violet);
+}
+
+.partner-editeur .partner-link:hover {
+    background: #d1c8ff;
+}
+
+/* Style des liens partenaires (mise à jour) */
+.partner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 6px 12px;
+    border: 1px solid;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.partner-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.partner-link svg {
+    width: 16px;
+    height: 16px;
+}
+
+.partner-link.disabled {
+    color: #999 !important;
+    border-color: #ddd !important;
+    cursor: not-allowed;
+}
+
+.partner-link.disabled:hover {
+    background: none !important;
+    transform: none;
+    box-shadow: none;
+}
+
 }
