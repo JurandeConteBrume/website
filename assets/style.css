@@ -923,5 +923,43 @@ footer {
     color: var(--orange);
     text-decoration: underline;
 }
+/* Style des liens partenaires */
+.partner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--bleu);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-top: 15px;
+    padding: 6px 12px;
+    border: 1px solid var(--bleu-clair);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
 
+.partner-link:hover {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.partner-link svg {
+    width: 16px;
+    height: 16px;
+}
+
+.partner-link.disabled {
+    color: #999;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+.partner-link.disabled:hover {
+    background: none;
+    transform: none;
+    box-shadow: none;
+}
 }
