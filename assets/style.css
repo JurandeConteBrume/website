@@ -913,4 +913,15 @@ footer {
   .cta-content p {
     font-size: 1.1em;
   }
+  .activity-card h3 a {
+    color: var(--bleu);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.activity-card h3 a:hover {
+    color: var(--orange);
+    text-decoration: underline;
+}
+
 }
