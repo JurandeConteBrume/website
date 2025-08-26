@@ -956,20 +956,6 @@ footer {
     align-items: center;
   }
 }
-@media (max-width: 768px) {
-  .festival-poster {
-    padding: 20px 15px;
-  }
-  
-  .poster-container {
-    max-width: 250px;
-    padding: 0 15px;
-  }
-  
-  .festival-poster-image {
-    max-height: 300px;
-  }
-}
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -1039,7 +1025,33 @@ footer {
     max-width: 200px;
   }
   
-  .festival-poster-image {
-    max-height: 250px;
-  }
+ 
+  
+ .festival-poster {
+  padding: 24px 0;
+  background: var(--gris-clair);
+  text-align: center;
+}
+
+.poster-container {
+  margin: 0 auto;
+  /* Ajustez si besoin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.festival-poster-image {
+  max-width: 220px !important;
+  max-height: 320px !important;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  transition: transform 0.3s;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
 }
