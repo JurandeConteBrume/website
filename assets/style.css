@@ -1174,4 +1174,39 @@ footer {
     padding: 12px 16px;
     font-size: 1em;
   }
+  /* Affiche */
+  .festival-poster {
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    text-align: center;
+}
+
+.poster-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.festival-poster-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.festival-poster-image:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .festival-poster {
+        padding: 1rem 0;
+    }
+    
+    .poster-container {
+        padding: 0 0.5rem;
+    }
+}
+
 }
