@@ -43,94 +43,62 @@
 
     <section class="features">
         <div class="feature">
-            <img src="assets/jds.png" alt="Soirées jeux de société">
+            <img src="assets/icon-jeux-small.png" alt="Soirées jeux de société">
             <h3>Soirées jeux de société</h3>
             <p>Tous les vendredis à 20h30 : venez partager des parties conviviales de jeux de société modernes et classiques.</p>
         </div>
         <div class="feature">
-            <img src="assets/magic.png" alt="Soirées Magic: The Gathering">
+            <img src="assets/icon-magic-small.png" alt="Soirées Magic: The Gathering">
             <h3>Soirées TCG</h3>
             <p>Un mardi sur deux à 20h : soirée Magic pour débutants et confirmés.</p>
         </div>
         <div class="feature">
-            <img src="assets/dice.png" alt="Soirées Jeu de Rôle">
+            <img src="assets/icon-jdr-small.png" alt="Soirées Jeu de Rôle">
             <h3>Soirées Jeu de Rôle</h3>
             <p>Une grande soirée jeux de rôle chaque trimestre pour explorer des univers épiques (ou non) et vivre des aventures uniques !</p>
         </div>
     </section>
 
-    <section class="calendar" id="calendrier">
-        <h2>Calendrier des soirées – Septembre 2025</h2>
-        <table class="calendar-month">
-            <thead>
-                <tr>
-                    <th>Lun</th>
-                    <th>Mar</th>
-                    <th>Mer</th>
-                    <th>Jeu</th>
-                    <th>Ven</th>
-                    <th>Sam</th>
-                    <th>Dim</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td class="event magic"><span>2</span><img src="assets/magic.png" alt="Magic" title="Soirée Magic"/><div class="evt">Magic [20h]</div></td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td class="event jds"><span>5</span><img src="assets/jds.png" alt="JdS" title="Jeux de société"/><div class="evt">Jeux [20h30]</div></td>
-                    <td class="event"><span>6</span><img src="assets/event.png" alt="Event" title="Village des asso"/><div class="evt">
-                    <a href="https://www.facebook.com/photo?fbid=1056094066736105&set=a.378685191143666">Village des asso [10h]</a></div></td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>11</td>
-                    <td class="event jds"><span>12</span><img src="assets/jds.png" alt="JdS" title="Jeux de société"/><div class="evt">Jeux [20h30]</div></td>
-                    <td>13</td>
-                    <td>14</td>
-                </tr>
-                <tr>
-                    <td>15</td>
-                    <td class="event magic"><span>16</span><img src="assets/magic.png" alt="Magic" title="Soirée Magic"/><div class="evt">Magic [20h]</div></td>
-                    <td>17</td>
-                    <td>18</td>
-                    <td class="event jds"><span>19</span><img src="assets/jds.png" alt="JdS" title="Jeux de société"/><div class="evt">Jeux [20h30]</div></td>
-                    <td>20</td>
-                    <td>21</td>
-                </tr>
-                <tr>
-                    <td>22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td class="event jds"><span>26</span><img src="assets/jds.png" alt="JdS" title="Jeux de société"/><div class="evt">Jeux [20h30]</div></td>
-                    <td>27</td>
-                    <td>28</td>
-                </tr>
-                <tr>
-                    <td>29</td>
-                    <td class="event magic"><span>30</span><img src="assets/magic.png" alt="Magic" title="Soirée Magic"/><div class="evt">Magic [20h]</div></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="event"><span>4</span><img src="assets/event.png" alt="Event" title="Fécamp sort le grand jeu 2025"/><div class="evt">
-                    <a href="https://jurande.fr/festival.html">Fécamp sort le grand jeu [10h-20h]</a></div></td>
-                    <td class="event"><span>5</span><img src="assets/event.png" alt="Event" title="Fécamp sort le grand jeu 2025"/><div class="evt">
-                    <a href="https://jurande.fr/festival.html">Fécamp sort le grand jeu [10h-18h]</a></div></td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="calendar-legend">
-            <span><img src="assets/jds.png" alt="JdS"/> Soirée jeux de société (vendredi 20h30)</span>
-            <span><img src="assets/magic.png" alt="Magic"/> Soirée Magic: The Gathering (un mardi sur deux 20h)</span>
-            <span><img src="assets/dice.png" alt="JDR"/> Soirée Jeu de Rôle (une par trimestre)</span>
-        </div>
-        <p class="calendar-info">Pour les dates suivantes ou les événements ponctuels, suivez-nous sur les réseaux ou contactez-nous !</p>
-    </section>
+	<section class="calendar">
+		<h2>Calendrier des Événements</h2>
+		
+		<!-- Navigation du calendrier -->
+		<div class="calendar-navigation">
+			<button class="nav-btn" onclick="changeMonth(-1)">← Précédent</button>
+			<h3 id="currentMonth" class="current-month"></h3>
+			<button class="nav-btn" onclick="changeMonth(1)">Suivant →</button>
+		</div>
+
+		<!-- Tableau du calendrier -->
+		<table class="calendar-month" id="calendarTable">
+			<thead>
+				<tr>
+					<th>Lun</th>
+					<th>Mar</th>
+					<th>Mer</th>
+					<th>Jeu</th>
+					<th>Ven</th>
+					<th>Sam</th>
+					<th>Dim</th>
+				</tr>
+			</thead>
+			<tbody id="calendarBody">
+				<!-- Le contenu sera généré par JavaScript -->
+			</tbody>
+		</table>
+
+		<!-- Légende -->
+		<div class="calendar-legend">
+			<span><img src="assets/icon-jeux-small.png" alt="Jeux"> Soirée Jeux de Société</span>
+			<span><img src="assets/icon-magic-small.png" alt="Magic"> Soirée Magic</span>
+			<span><img src="assets/icon-jdr-small.png" alt="JDR"> Soirée Jeux de Rôle</span>
+			<span><img src="assets/icon-special-small.png" alt="Spécial"> Événement Spécial</span>
+		</div>
+
+		<div class="calendar-info">
+			<p>Pour les dates suivantes ou les événements ponctuels, suivez-nous sur les réseaux ou contactez-nous !</p>
+		</div>
+	</section>
 
     <section class="location" id="lieu">
         <h2>Notre lieu de rencontre</h2>
