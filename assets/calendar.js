@@ -8,7 +8,6 @@ let eventsList = [];
 
 async function loadEvents() {
     try {
-        console.log('📅 Chargement des événements...');
         const response = await fetch('./assets/events.txt');
         
         if (!response.ok) {
@@ -16,15 +15,11 @@ async function loadEvents() {
         }
         
         const text = await response.text();
-        console.log('📄 Fichier chargé, contenu:', text.substring(0, 100) + '...');
         
         eventsList = parseEvents(text);
-        console.log('✅ Événements parsés:', eventsList.length, 'événements trouvés');
-        console.log('📋 Premier événement:', eventsList[0]);
         
         return eventsList;
     } catch (error) {
-        console.error('❌ Erreur chargement événements:', error);
         eventsList = [];
         return [];
     }
@@ -35,13 +30,11 @@ function parseEvents(text) {
         .map(line => line.trim())
         .filter(line => line && !line.startsWith('#'));
     
-    console.log('📝 Lignes trouvées:', lines);
     
     const events = lines.map((line, index) => {
         const parts = line.split('|').map(part => part.trim());
         
         if (parts.length < 4) {
-            console.warn(`⚠️ Ligne ${index + 1} ignorée (format incorrect):`, line);
             return null;
         }
         
@@ -59,17 +52,12 @@ function parseEvents(text) {
 function getEventsForDay(year, month, day) {
     const dateKey = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     const dayEvents = eventsList.filter(event => event.date === dateKey);
-    
-    if (dayEvents.length > 0) {
-        console.log(`📅 ${dateKey}: ${dayEvents.length} événement(s)`, dayEvents);
-    }
-    
+  
     return dayEvents;
 }
 
 function generateCalendar(year, month) {
-    console.log(`🗓️ Génération calendrier: ${monthNames[month]} ${year}`);
-    
+
     // Mise à jour du titre
     const monthElement = document.getElementById('currentMonth');
     if (monthElement) {
@@ -130,20 +118,49 @@ function generateCalendar(year, month) {
         if (date > daysInMonth) break;
     }
     
-    console.log(`✅ Calendrier généré: ${eventsDisplayed} événements affichés`);
+
 }
 
 function addEventToCell(cell, event) {
     const eventDiv = document.createElement('div');
     eventDiv.className = `event ${event.type}`;
     
+    // Ajouter l'icône selon le type d'événement
+    const icon = document.createElement('img');
+    icon.className = 'event-icon';
+    
+    switch(event.type) {
+        case 'jeux':
+            icon.src = 'images/icon-jeux-small.png';
+            icon.alt = 'Jeux';
+            break;
+        case 'magic':
+            icon.src = 'images/icon-magic-small.png';
+            icon.alt = 'Magic';
+            break;
+        case 'jdr':
+            icon.src = 'images/icon-jdr-small.png';
+            icon.alt = 'JdR';
+            break;
+        case 'special':
+            icon.src = 'images/icon-special-small.png';
+            icon.alt = 'Spécial';
+            break;
+        default:
+            icon.src = 'images/icon-default-small.png';
+            icon.alt = 'Événement';
+    }
+    
     const textSpan = document.createElement('span');
     textSpan.className = 'evt';
     textSpan.textContent = event.heure ? `${event.heure} - ${event.titre}` : event.titre;
     
+    // Ajouter l'icône et le texte à l'événement
+    eventDiv.appendChild(icon);
     eventDiv.appendChild(textSpan);
     cell.appendChild(eventDiv);
 }
+
 
 function changeMonth(direction) {
     currentDate.setMonth(currentDate.getMonth() + direction);
@@ -152,7 +169,6 @@ function changeMonth(direction) {
 
 // Initialisation
 document.addEventListener('DOMContentLoaded', async function() {
-    console.log('🚀 Initialisation du calendrier...');
     
     // Vérification des éléments DOM
     const monthElement = document.getElementById('currentMonth');
