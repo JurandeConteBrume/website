@@ -131,23 +131,23 @@ function addEventToCell(cell, event) {
     
     switch(event.type) {
         case 'jeux':
-            icon.src = 'images/icon-jeux-small.png';
+            icon.src = 'assets/icon-jeux-small.png';
             icon.alt = 'Jeux';
             break;
         case 'magic':
-            icon.src = 'images/icon-magic-small.png';
+            icon.src = 'assets/icon-magic-small.png';
             icon.alt = 'Magic';
             break;
         case 'jdr':
-            icon.src = 'images/icon-jdr-small.png';
+            icon.src = 'assets/icon-jdr-small.png';
             icon.alt = 'JdR';
             break;
         case 'special':
-            icon.src = 'images/icon-special-small.png';
+            icon.src = 'assets/icon-special-small.png';
             icon.alt = 'Spécial';
             break;
         default:
-            icon.src = 'images/icon-default-small.png';
+            icon.src = 'assets/icon-default-small.png';
             icon.alt = 'Événement';
     }
     
