@@ -315,14 +315,12 @@ nav a:hover {
   margin-bottom: 2px;
 }
 .calendar-month .event {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+    display: block;          /* Plus de flex needed */
     font-size: 10px;
     margin: 1px 0;
     padding: 3px 5px;
     border-radius: 4px;
-    text-align: left;
+    text-align: center;      /* Centré maintenant */
     border: 1px solid;
 }
 /* Icônes des événements */
@@ -374,12 +372,58 @@ nav a:hover {
   margin-left: 6px;
 }
 .calendar-legend {
-  margin: 18px 0 6px 0;
-  display: flex;
-  gap: 22px;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+    margin: 18px 0 6px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* Couleurs de la légende selon les types */
+.legend-jeux {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    border-color: var(--bleu);
+}
+
+.legend-magic {
+    background: #ff6b35;     /* Orange - même couleur que les événements */
+    color: white;
+    border-color: #f7931e;
+}
+
+.legend-jdr {
+    background: var(--violet);
+    color: white;
+    border-color: var(--violet-fonce);
+}
+
+.legend-special {
+    background: var(--vert);
+    color: white;
+    border-color: #2d7d32;
+}
+
+/* Responsive pour les événements */
+@media (max-width: 600px) {
+    .calendar-month .event {
+        font-size: 9px;
+        padding: 2px 3px;
+    }
+    
+    .calendar-month .evt {
+        font-size: 0.7rem;
+    }
+}
+.legend-item {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 15px;
+    border: 2px solid;
+    gap: 6px;
 }
 .calendar-legend span {
   display: flex;
