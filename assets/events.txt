@@ -1,9 +1,5 @@
 # Événements La Jurande des Conte-Brume
-2025-08-30 | 20:00 | Magic pour tous | magic
-2025-09-02 | 20:30 | Soirée Jeux de société | jeux
-2025-09-06 | 20:30 | Soirée Jeux de société | jeux
-2025-09-13 | 20:30 | Soirée Jeux de société | jeux
-2025-09-16 | 20:00 | Magic pour confirmés | magic
-2025-09-20 | 20:30 | Soirée Jeux de société | jeux
-2025-09-27 | 20:30 | Soirée Jeux de société | jeux
-2025-09-30 | 20:00 | Magic débutants | magic
+2025-08-29 | 20:30 | Soirée Jeux de société | jeux
+2025-09-02 | 20:00 | Soirée Magic | magic
+2025-09-05 | 20:30 | Soirée Jeux de société | jeux
+2025-09-06 | 10:00 | Village des asso | event
