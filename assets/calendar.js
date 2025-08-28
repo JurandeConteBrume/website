@@ -142,12 +142,12 @@ function addEventToCell(cell, event) {
             icon.src = 'assets/icon-jdr-small.png';
             icon.alt = 'JdR';
             break;
-        case 'special':
+        case 'event':
             icon.src = 'assets/icon-special-small.png';
             icon.alt = 'Spécial';
             break;
         default:
-            icon.src = 'assets/icon-default-small.png';
+            icon.src = 'assets/icon-special-small.png';
             icon.alt = 'Événement';
     }
     
