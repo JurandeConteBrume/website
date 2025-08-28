@@ -125,41 +125,16 @@ function addEventToCell(cell, event) {
     const eventDiv = document.createElement('div');
     eventDiv.className = `event ${event.type}`;
     
-    // Ajouter l'icône selon le type d'événement
-    const icon = document.createElement('img');
-    icon.className = 'event-icon';
-    
-    switch(event.type) {
-        case 'jeux':
-            icon.src = 'assets/icon-jeux-small.png';
-            icon.alt = 'Jeux';
-            break;
-        case 'magic':
-            icon.src = 'assets/icon-magic-small.png';
-            icon.alt = 'Magic';
-            break;
-        case 'jdr':
-            icon.src = 'assets/icon-jdr-small.png';
-            icon.alt = 'JdR';
-            break;
-        case 'event':
-            icon.src = 'assets/icon-special-small.png';
-            icon.alt = 'Spécial';
-            break;
-        default:
-            icon.src = 'assets/icon-special-small.png';
-            icon.alt = 'Événement';
-    }
-    
+    // Plus d'icône - juste le texte
     const textSpan = document.createElement('span');
     textSpan.className = 'evt';
     textSpan.textContent = event.heure ? `${event.heure} - ${event.titre}` : event.titre;
     
-    // Ajouter l'icône et le texte à l'événement
-    eventDiv.appendChild(icon);
+    // Ajouter seulement le texte à l'événement
     eventDiv.appendChild(textSpan);
     cell.appendChild(eventDiv);
 }
+
 
 
 function changeMonth(direction) {
