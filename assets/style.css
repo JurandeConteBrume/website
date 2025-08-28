@@ -287,6 +287,12 @@ nav a:hover {
   padding: 10px 0;
   border-bottom: 2px solid var(--bleu);
 }
+.calendar-month td span:first-child {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+}
 .calendar-month td {
   height: 68px;
   width: 14.28%;
@@ -309,21 +315,60 @@ nav a:hover {
   margin-bottom: 2px;
 }
 .calendar-month .event {
-  background: var(--bleu-clair);
-  border: 2px solid var(--bleu);
-  border-radius: 10px;
-  box-shadow: 0 2px 8px #ee6e7322;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    margin: 1px 0;
+    padding: 3px 5px;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid;
 }
+/* Icônes des événements */
+.event-icon {
+    height: 12px;
+    width: 12px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
 .calendar-month .event img {
   height: 26px;
   vertical-align: middle;
   margin: 0 1px 2px 0;
 }
 .calendar-month .evt {
-  font-size: 0.92rem;
-  color: var(--bleu);
-  font-family: var(--font-title);
-  margin-top: 0px;
+    font-size: 0.8rem;
+    color: inherit;
+    font-family: var(--font-text);
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.1;
+}
+/* Styles par type d'événement */
+.calendar-month .event.jeux {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    border-color: var(--bleu);
+}
+
+.calendar-month .event.magic {
+    background: #ff6b35; /* Orange au lieu de violet */
+    color: white;
+    border-color: #f7931e;
+}
+
+.calendar-month .event.jdr {
+    background: var(--violet);
+    color: white;
+    border-color: var(--violet-fonce);
+}
+
+.calendar-month .event.special {
+    background: var(--vert);
+    color: white;
+    border-color: #2d7d32;
 }
 .calendar-month .jdr img[alt="JDR"] {
   margin-left: 6px;
@@ -410,19 +455,19 @@ nav a:hover {
 
 /* Responsive navigation calendrier */
 @media (max-width: 600px) {
-    .calendar-navigation {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
+    .calendar-month .event {
+        font-size: 9px;
+        padding: 2px 3px;
+        gap: 2px;
     }
     
-    .nav-btn {
-        padding: 10px 16px;
-        font-size: 0.9rem;
+    .event-icon {
+        height: 10px;
+        width: 10px;
     }
     
-    .current-month {
-        font-size: 1.5rem;
+    .calendar-month .evt {
+        font-size: 0.7rem;
     }
 }
 
