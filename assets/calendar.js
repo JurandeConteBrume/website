@@ -6,11 +6,9 @@ const monthNames = [
 let currentDate = new Date();
 let eventsList = [];
 
-// Configuration des chemins
-const EVENTS_FILE = 'assets/events.txt';
-const ICONS_PATH = 'assets/';
+// Chemin relatif pour GitHub Pages
+const EVENTS_FILE = './assets/events.txt'; // Attention au "./"
 
-// Charge le fichier texte
 async function loadEvents() {
     try {
         console.log('Chargement des événements depuis:', EVENTS_FILE);
@@ -18,7 +16,7 @@ async function loadEvents() {
         
         if (!response.ok) {
             console.error('Erreur chargement events.txt:', response.status);
-            eventsList = []; // Valeurs par défaut vides
+            eventsList = [];
             return;
         }
         
@@ -63,7 +61,7 @@ function generateCalendar(year, month) {
     const firstDay = new Date(year, month, 1);
     const lastDay = new Date(year, month + 1, 0);
     const daysInMonth = lastDay.getDate();
-    const startingDayOfWeek = (firstDay.getDay() + 6) % 7; // Lundi = 0
+    const startingDayOfWeek = (firstDay.getDay() + 6) % 7;
     
     const calendarBody = document.getElementById('calendarBody');
     calendarBody.innerHTML = '';
@@ -74,7 +72,6 @@ function generateCalendar(year, month) {
     const prevYear = month === 0 ? year - 1 : year;
     const daysInPrevMonth = new Date(prevYear, prevMonth + 1, 0).getDate();
     
-    // Générer les semaines
     for (let week = 0; week < 6; week++) {
         const row = document.createElement('tr');
         
@@ -86,21 +83,18 @@ function generateCalendar(year, month) {
             let cellMonth = month;
             
             if (week === 0 && day < startingDayOfWeek) {
-                // Jours du mois précédent
                 cellDate = daysInPrevMonth - startingDayOfWeek + day + 1;
                 isCurrentMonth = false;
                 cellYear = prevYear;
                 cellMonth = prevMonth;
                 cell.style.opacity = '0.3';
             } else if (date > daysInMonth) {
-                // Jours du mois suivant
                 cellDate = nextMonthDate++;
                 isCurrentMonth = false;
                 cellYear = month === 11 ? year + 1 : year;
                 cellMonth = month === 11 ? 0 : month + 1;
                 cell.style.opacity = '0.3';
             } else {
-                // Jours du mois actuel
                 cellDate = date++;
             }
             
@@ -108,7 +102,6 @@ function generateCalendar(year, month) {
             daySpan.textContent = cellDate;
             cell.appendChild(daySpan);
             
-            // Ajouter les événements pour le mois actuel uniquement
             if (isCurrentMonth) {
                 const events = getEventsForDay(cellYear, cellMonth, cellDate);
                 events.forEach(event => {
@@ -120,27 +113,13 @@ function generateCalendar(year, month) {
         }
         
         calendarBody.appendChild(row);
-        
-        // Arrêter si on a affiché tous les jours du mois
         if (date > daysInMonth) break;
     }
-    
-    console.log('Calendrier généré avec', calendarBody.children.length, 'lignes');
 }
 
 function addEventToCell(cell, event) {
     const eventDiv = document.createElement('div');
     eventDiv.className = `event ${event.type}`;
-    
-    // Ajouter l'icône selon le type
-    const iconSrc = getIconForType(event.type);
-    if (iconSrc) {
-        const icon = document.createElement('img');
-        icon.src = iconSrc;
-        icon.alt = event.type;
-        icon.style.height = '16px';
-        eventDiv.appendChild(icon);
-    }
     
     const textSpan = document.createElement('span');
     textSpan.className = 'evt';
@@ -150,22 +129,11 @@ function addEventToCell(cell, event) {
     cell.appendChild(eventDiv);
 }
 
-function getIconForType(type) {
-    const icons = {
-        jeux: ICONS_PATH + 'icon-jeux-small.png',
-        magic: ICONS_PATH + 'icon-magic-small.png',
-        jdr: ICONS_PATH + 'icon-jdr-small.png',
-        special: ICONS_PATH + 'icon-special-small.png'
-    };
-    return icons[type] || '';
-}
-
 function changeMonth(direction) {
     currentDate.setMonth(currentDate.getMonth() + direction);
     generateCalendar(currentDate.getFullYear(), currentDate.getMonth());
 }
 
-// Initialisation
 document.addEventListener('DOMContentLoaded', async function() {
     console.log('DOM chargé, initialisation du calendrier...');
     await loadEvents();
