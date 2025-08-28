@@ -1,5 +1,79 @@
 # Événements La Jurande des Conte-Brume
 2025-08-29 | 20:30 | Soirée Jeux de société | jeux
+
 2025-09-02 | 20:00 | Soirée Magic | magic
 2025-09-05 | 20:30 | Soirée Jeux de société | jeux
 2025-09-06 | 10:00 | Village des asso | event
+2025-09-12 | 20:30 | Soirée Jeux de société | jeux
+2025-09-16 | 20:00 | Soirée Magic | magic
+2025-09-19 | 20:30 | Soirée Jeux de société | jeux
+2025-09-20 | 16:00 | Fête de la nature et du jeu Paluel | event
+2025-09-26 | 20:30 | Soirée Jeux de société | jeux
+2025-09-30 | 20:00 | Soirée Magic | magic
+
+2025-10-03 | XX:XX | PAS DE SOIREE ! | event
+2025-10-04 | 10:00 | Fécamp sort le grand jeu | event
+2025-10-05 | 10:00 | Fécamp sort le grand jeu | event
+2025-10-10 | 20:30 | Soirée Jeux de société | jeux
+2025-10-14 | 20:00 | Soirée Magic | magic
+2025-10-17 | 20:30 | Soirée Jeux de société | jeux
+2025-10-24 | 20:30 | Soirée Jeux de société | jeux
+2025-10-28 | 20:00 | Soirée Magic | magic
+2025-10-31 | 20:30 | Soirée Jeux de société | jeux
+
+2025-11-07 | 20:30 | Soirée Jeux de société | jeux
+2025-11-11 | 20:00 | Soirée Magic | magic
+2025-11-14 | 20:30 | Soirée Jeux de société | jeux
+2025-11-21 | 20:30 | Soirée Jeux de société | jeux
+2025-11-25 | 20:00 | Soirée Magic | magic
+2025-11-28 | 20:30 | Soirée Jeux de société | jeux
+
+2025-12-05 | 20:30 | Soirée Jeux de rôle | jdr
+2025-12-09 | 20:00 | Soirée Magic | magic
+2025-12-12 | 20:30 | Soirée Jeux de société | jeux
+2025-12-19 | 20:30 | Soirée Jeux de société | jeux
+2025-12-23 | 20:00 | Soirée Magic | magic
+
+2026-01-02 | 20:30 | Soirée Jeux de société | jeux
+2026-01-06 | 20:00 | Soirée Magic | magic
+2026-01-09 | 20:30 | Soirée Jeux de société | jeux
+2026-01-16 | 20:30 | Soirée Jeux de société | jeux
+2026-01-20 | 20:00 | Soirée Magic | magic
+2026-01-23 | 20:30 | Soirée Jeux de société | jeux
+2026-01-30 | 20:30 | Soirée Jeux de société | jeux
+
+2026-02-03 | 20:00 | Soirée Magic | magic
+2026-02-06 | 20:30 | Soirée Jeux de société | jeux
+2026-02-13 | 20:30 | Soirée Jeux de société | jeux
+2026-02-17 | 20:00 | Soirée Magic | magic
+2026-02-20 | 20:30 | Soirée Jeux de société | jeux
+2026-02-27 | 20:30 | Soirée Jeux de société | jeux
+
+2026-03-03 | 20:00 | Soirée Magic | magic
+2026-03-06 | 20:30 | Soirée Jeux de rôle | jdr
+2026-03-13 | 20:30 | Soirée Jeux de société | jeux
+2026-03-17 | 20:00 | Soirée Magic | magic
+2026-03-20 | 20:30 | Soirée Jeux de société | jeux
+2026-03-27 | 20:30 | Soirée Jeux de société | jeux
+2026-03-31 | 20:00 | Soirée Magic | magic
+
+2026-04-03 | 20:30 | Soirée Jeux de société | jeux
+2026-04-10 | 20:30 | Soirée Jeux de société | jeux
+2026-04-14 | 20:00 | Soirée Magic | magic
+2026-04-17 | 20:30 | Soirée Jeux de société | jeux
+2026-04-24 | 20:30 | Soirée Jeux de société | jeux
+2026-04-24 | 20:00 | Soirée Magic | magic
+
+2026-05-01 | 20:30 | Soirée Jeux de société | jeux
+2026-05-08 | 20:30 | Soirée Jeux de société | jeux
+2026-05-12 | 20:00 | Soirée Magic | magic
+2026-05-15 | 20:30 | Soirée Jeux de société | jeux
+2026-05-22 | 20:30 | Soirée Jeux de société | jeux
+2026-05-26 | 20:00 | Soirée Magic | magic
+2026-05-29 | 20:30 | Soirée Jeux de société | jeux
+
+2026-06-05 | 20:30 | Soirée Jeux de rôle | jdr
+2026-06-09 | 20:00 | Soirée Magic | magic
+2026-06-12 | 20:30 | Soirée Jeux de société | jeux
+2026-06-19 | 20:30 | Soirée Jeux de société | jeux
+2026-06-23 | 20:00 | Soirée Magic | magic
