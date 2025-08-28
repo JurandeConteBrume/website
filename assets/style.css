@@ -352,6 +352,80 @@ nav a:hover {
   font-size: 1rem;
   margin-top: 10px;
 }
+
+/* === NAVIGATION CALENDRIER === */
+.calendar-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* réduit l'espace entre les éléments */
+    margin-bottom: 10px; /* rapproche du tableau */
+}
+
+.nav-btn {
+    background: var(--bleu);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-btn:hover {
+    background: var(--bleu-clair);
+    color: var(--bleu);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(37, 116, 169, 0.2);
+}
+
+.current-month {
+    font-family: var(--font-title);
+    color: var(--bleu);
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* Styles pour les événements par type */
+.calendar-month .event.magic {
+    background: linear-gradient(135deg, var(--violet), var(--violet-fonce));
+    border: 2px solid var(--violet);
+    color: white;
+}
+
+.calendar-month .event.jdr {
+    background: linear-gradient(135deg, var(--orange), #f7931e);
+    border: 2px solid var(--orange);
+    color: white;
+}
+
+.calendar-month .event.special {
+    background: linear-gradient(135deg, var(--vert), #2d7d32);
+    border: 2px solid var(--vert);
+    color: white;
+}
+
+/* Responsive navigation calendrier */
+@media (max-width: 600px) {
+    .calendar-navigation {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .nav-btn {
+        padding: 10px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .current-month {
+        font-size: 1.5rem;
+    }
+}
+
 /* === LOCATION SECTION === */
 .location {
   padding: 60px 20px;
