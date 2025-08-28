@@ -347,19 +347,19 @@ nav a:hover {
 }
 /* Styles par type d'événement */
 .calendar-month .event.jeux {
-    background: var(--bleu-clair);
+    background: #85D6A7
     color: var(--bleu);
     border-color: var(--bleu);
 }
 
 .calendar-month .event.magic {
-    background: #ff6b35; /* Orange au lieu de violet */
+    background: #98CB62
     color: white;
     border-color: #f7931e;
 }
 
 .calendar-month .event.jdr {
-    background: #9F36A1);
+    background: #9F36A1;
     color: white;
     border-color: var(--violet-fonce);
 }
@@ -388,7 +388,7 @@ nav a:hover {
 }
 
 .legend-magic {
-    background: #98CB62;     /* Orange - même couleur que les événements */
+    background: #98CB62;   
     color: white;
     border-color: #f7931e;
 }
@@ -480,6 +480,13 @@ nav a:hover {
 }
 
 /* Styles pour les événements par type */
+/* 
+Magic : #98CB62
+JDS : 	#85D6A7
+JDR : 	#9F36A1
+Spe : 	#B43C4C
+*/
+
 .calendar-month .event.magic {
     background: #98CB62;
     border: 2px solid var(--violet);
@@ -487,13 +494,13 @@ nav a:hover {
 }
 
 .calendar-month .event.jdr {
-    background: var(--orange), #f7931e);
+    background: #9F36A1;
     border: 2px solid var(--orange);
     color: white;
 }
 
 .calendar-month .event.special {
-    background: linear-gradient(135deg, var(--vert), #2d7d32);
+    background: #B43C4C;
     border: 2px solid var(--vert);
     color: white;
 }
