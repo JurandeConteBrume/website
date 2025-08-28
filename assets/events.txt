@@ -3,17 +3,17 @@
 
 2025-09-02 | 20:00 | Soirée Magic | magic
 2025-09-05 | 20:30 | Soirée Jeux de société | jeux
-2025-09-06 | 10:00 | Village des asso | event
+2025-09-06 | 10:00 | Village des asso | special
 2025-09-12 | 20:30 | Soirée Jeux de société | jeux
 2025-09-16 | 20:00 | Soirée Magic | magic
 2025-09-19 | 20:30 | Soirée Jeux de société | jeux
-2025-09-20 | 16:00 | Fête de la nature et du jeu Paluel | event
+2025-09-20 | 16:00 | Fête de la nature et du jeu Paluel | special
 2025-09-26 | 20:30 | Soirée Jeux de société | jeux
 2025-09-30 | 20:00 | Soirée Magic | magic
 
-2025-10-03 | XX:XX | PAS DE SOIREE ! | event
-2025-10-04 | 10:00 | Fécamp sort le grand jeu | event
-2025-10-05 | 10:00 | Fécamp sort le grand jeu | event
+2025-10-03 | XX:XX | PAS DE SOIREE ! | special
+2025-10-04 | 10:00 | Fécamp sort le grand jeu | special
+2025-10-05 | 10:00 | Fécamp sort le grand jeu | special
 2025-10-10 | 20:30 | Soirée Jeux de société | jeux
 2025-10-14 | 20:00 | Soirée Magic | magic
 2025-10-17 | 20:30 | Soirée Jeux de société | jeux
