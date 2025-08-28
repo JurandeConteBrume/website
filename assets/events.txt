@@ -62,7 +62,7 @@
 2026-04-14 | 20:00 | Soirée Magic | magic
 2026-04-17 | 20:30 | Soirée Jeux de société | jeux
 2026-04-24 | 20:30 | Soirée Jeux de société | jeux
-2026-04-24 | 20:00 | Soirée Magic | magic
+2026-04-28 | 20:00 | Soirée Magic | magic
 
 2026-05-01 | 20:30 | Soirée Jeux de société | jeux
 2026-05-08 | 20:30 | Soirée Jeux de société | jeux
