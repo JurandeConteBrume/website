@@ -32,8 +32,10 @@
 2025-12-09 | 20:00 | Magic | magic
 2025-12-12 | 20:30 | Jeux de société | jeux
 2025-12-19 | 20:30 | Jeux de société | jeux
+2025-12-23 | | Vacances | special
+2025-12-26 | | Vacances | special
 
-2026-01-02 | 20:30 | Jeux de société | jeux
+2026-01-02 | | Vacances | special
 2026-01-06 | 20:00 | Magic | magic
 2026-01-09 | 20:30 | Jeux de société | jeux
 2026-01-16 | 20:30 | Jeux de société | jeux
