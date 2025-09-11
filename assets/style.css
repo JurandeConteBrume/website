@@ -581,6 +581,28 @@ color: #333;
 font-size: 1.08rem;
 }
 
+/* === ADHESION SECTION === */
+.adhesion {
+background: #fff;
+margin: 40px auto 0 auto;
+padding: 40px 10vw;
+border-radius: 18px;
+box-shadow: 0 2px 14px #0001;
+max-width: 900px;
+}
+
+.adhesion h2 {
+font-family: var(--font-title);
+color: var(--bleu);
+font-size: 1.7rem;
+margin-bottom: 18px;
+}
+
+.adhesion p {
+color: #333;
+font-size: 1.08rem;
+}
+
 /* === FOOTER === */
 footer {
 background: #fff;
@@ -1156,10 +1178,6 @@ flex-direction: column;
 gap: 25px;
 }
 
-.about {
-padding: 30px 4vw;
-}
-
 .location-content {
 grid-template-columns: 1fr;
 gap: 30px;
@@ -1217,11 +1235,6 @@ padding: 10px;
 }
 
 .features {
-border-radius: 0;
-box-shadow: none;
-}
-
-.about {
 border-radius: 0;
 box-shadow: none;
 }
