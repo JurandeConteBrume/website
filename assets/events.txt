@@ -17,7 +17,8 @@
 2025-10-10 | 20:30 | Jeux de société | jeux
 2025-10-14 | 20:00 | Magic | magic
 2025-10-17 | 20:30 | Jeux de société | jeux
-2025-10-24 | 20:30 | Jeux de société | jeux
+2025-09-20 | 12:00 | Tournée Jeunesse | special
+2025-10-24 |  | PAS DE SOIREE | special
 2025-10-28 | 20:00 | Magic | magic
 2025-10-31 | 20:30 | Jeux de société | jeux
 
@@ -25,6 +26,8 @@
 2025-11-11 | 20:00 | Magic | magic
 2025-11-14 | 20:30 | Jeux de société | jeux
 2025-11-21 | 20:30 | Jeux de société | jeux
+2025-09-20 | 14:00 | Festival de Lillebone | special
+2025-09-20 | 10:00 | Festival de Lillebone | special
 2025-11-25 | 20:00 | Magic | magic
 2025-11-28 | 20:30 | Jeux de société | jeux
 
@@ -41,6 +44,7 @@
 2026-01-16 | 20:30 | Jeux de société | jeux
 2026-01-20 | 20:00 | Magic | magic
 2026-01-23 | 20:30 | Jeux de société | jeux
+2026-01-06 | 20:00 | Draft Lorwyn | magic
 2026-01-30 | 20:30 | Jeux de société | jeux
 
 2026-02-03 | 20:00 | Magic | magic
