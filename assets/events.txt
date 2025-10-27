@@ -44,7 +44,7 @@
 2026-01-16 | 20:30 | Jeux de société | jeux
 2026-01-20 | 20:00 | Magic | magic
 2026-01-23 | 20:30 | Jeux de société | jeux
-2026-01-06 | 20:00 | Draft Lorwyn | magic
+2026-01-27 | 20:00 | Draft Lorwyn | magic
 2026-01-30 | 20:30 | Jeux de société | jeux
 
 2026-02-03 | 20:00 | Magic | magic
