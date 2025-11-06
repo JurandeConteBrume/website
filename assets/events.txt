@@ -28,7 +28,7 @@
 2025-11-21 | 20:30 | Jeux de société | jeux
 2025-11-22 | 14:00 | Festival de Lillebone | special
 2025-11-23 | 10:00 | Festival de Lillebone | special
-2025-11-25 | 20:00 | Magic | magic
+2025-11-25 | 20:00 | Magic - Pauper | magic
 2025-11-28 | 20:30 | Jeux de société | jeux
 
 2025-12-05 | 20:30 | Jeux de rôle | jdr
