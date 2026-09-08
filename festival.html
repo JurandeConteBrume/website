@@ -1,214 +1,647 @@
-
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jurande des conte-brume - Association de jeux de société</title>
-    <link rel="stylesheet" href="../../assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+```
+<title>Jurande des conte-brume - Association de jeux de société</title>
+
+<link rel="stylesheet" href="../../assets/style.css">
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+>
+```
+
 </head>
+
 <body>
-    <header>
-        <nav>
+
+```
+<!-- Navigation -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Accueil</a></li>
+            <li><a href="../../index.html#calendrier">Calendrier</a></li>
+            <li><a href="../../index.html#lieu">Notre lieu</a></li>
+            <li><a href="../../index.html#apropos">À propos</a></li>
+            <li><a href="../../index.html#adhesion">Adhésion</a></li>
+            <li><a href="../../animations.html" class="active">Animations</a></li>
+            <li><a href="../../index.html#contact">Nous contacter</a></li>
+
+            <!--
+            <li>
+                <a href="festival.html" class="festival-link">
+                    Festival Oct 2026
+                </a>
+            </li>
+            -->
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Hero -->
+<section class="festival-hero">
+    <div class="festival-hero-content">
+        <h1>🎲 Fécamp sort le grand jeu 2026 🎲</h1>
+        <h2>3 &amp; 4 Octobre 2026</h2>
+
+        <p class="festival-tagline">
+            Deux jours exceptionnels de jeux, de découvertes et de partage à Fécamp !
+        </p>
+    </div>
+</section>
+
+
+<!-- Affiche du festival -->
+<section class="festival-poster">
+    <div class="poster-container">
+        <img
+            src="../../assets/affiche-fecamp-2026.png"
+            alt="Affiche Fécamp sort le grand jeu 2026"
+            class="festival-poster-image"
+            style="max-width: 220px; max-height: 320px; width: auto; height: auto;"
+        >
+    </div>
+</section>
+
+
+<!-- Informations principales -->
+<section class="festival-info">
+    <div class="festival-details">
+
+        <div class="festival-card">
+            <h3>📅 Dates &amp; Horaires</h3>
+
             <ul>
-                <li><a href="../../index.html">Accueil</a></li>
-                <li><a href="../../index.html#calendrier">Calendrier</a></li>
-                <li><a href="../../index.html#lieu">Notre lieu</a></li>
-                <li><a href="../../index.html#apropos">À propos</a></li>
-                <li><a href="../../index.html#adhesion">Adhésion</a></li>
-                <li><a href="../../animations.html" class="active">Animations</a></li>
-                <li><a href="../../index.html#contact">Nous contacter</a></li>
-				<!--<li><a href="festival.html" class="festival-link">Festival Oct 2026</a></li>-->
+                <li>
+                    <strong>Samedi 3 octobre :</strong>
+                    10h - 20h
+                </li>
+
+                <li>
+                    <strong>Dimanche 4 octobre :</strong>
+                    10h - 18h
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <section class="festival-hero">
-        <div class="festival-hero-content">
-            <h1>🎲 Fécamp sort le grand jeu 2026 🎲</h1>
-            <h2>3 & 4 Octobre 2026</h2>
-            <p class="festival-tagline">Deux jours exceptionnels de jeux, de découvertes et de partage à Fécamp !</p>
         </div>
-    </section>
 
-	<!-- Section affiche du festival -->
-	<section class="festival-poster">
-	    <div class="poster-container">
-	        <img src="../../assets/affiche-fecamp-2026.png" alt="Affiche Fécamp sort le grand jeu 2026" class="festival-poster-image" style="max-width: 220px; max-height: 320px; width: auto; height: auto;">
-	    </div>
-	</section>
-	
-    <section class="festival-info">
-        <div class="festival-details">
-            <div class="festival-card">
-                <h3>📅 Dates & Horaires</h3>
-                <ul>
-                    <li><strong>Samedi 3 octobre :</strong> 10h - 20h</li>
-                    <li><strong>Dimanche 4 octobre :</strong> 10h - 18h</li>
-                </ul>
-            </div>
-            
-            <div class="festival-card">
-                <h3>📍 Lieu</h3>
-                <p><strong>Salles Tony Parker et Jean Bouin</strong><br>
-                76400 Fécamp</p>
-            </div>
-            
-            <div class="festival-card">
-                <h3>💰 Tarifs</h3>
-                <ul>
-                    <li><strong>Entrée libre</strong> pour tous !</li>
-                    <li>Buvette et food truck sur place</li>
-                </ul>
-            </div>
+
+        <div class="festival-card">
+            <h3>📍 Lieu</h3>
+
+            <p>
+                <strong>Salles Tony Parker et Jean Bouin</strong><br>
+                76400 Fécamp
+            </p>
         </div>
-    </section>
-
-	<section class="festival-activities">
-		<h2>Partenaires</h2>
-		<div class="activities-grid">
-			<div class="activity-card partner-institutionnel">
-				<h3>Mairie de Fécamp</h3>
-				<p>Merci pour le prêt de la salle et l'aide logistique.</p>
-				<a href="https://www.ville-fecamp.fr/" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>
-			<div class="activity-card partner-asso">
-				<div class="partner-type">Association</div>
-				<h3>Association de jeu de rôle à Fécamp</h3>
-				<p>Venez (re)découvrir le jeu de rôle entre de bonnes mains avec des sessions d'initiation et des campagnes régulières.</p>
-				<a href="https://www.facebook.com/arfjdr" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Voir le site
-				</a>
-			</div>
-			
-			<div class="activity-card partner-asso">
-				<div class="partner-type">Association</div>
-				<h3>Compagnie of Wargamers</h3>
-				<p>Association dédiée aux jeux de stratégie historiques comme Mémoire 44 : revivez les grandes batailles de l'Histoire dans une ambiance conviviale et mémorielle !</p>
-				<a href="https://www.facebook.com/VladRodchenk" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>
-			
-			<div class="activity-card partner-asso">
-				<div class="partner-type">Association</div>
-				<h3>Fiscicampus Ludicus</h3>
-				<p>Association de joueurs passionnés avertis ou debutants.</p>
-				<a href="https://www.facebook.com/groups/786968145746311" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>	
-
-			<div class="activity-card partner-asso">
-				<div class="partner-type">Association</div>
-				<h3>L'Antre du Meeple</h3>
-				<p>L'Association L'Antre du Meeple vous propose différentes activités autour du jeu de société, du jeu de rôle, ou du jeu en général. Notre but est de permettre à nos adhérents de venir s'amuser et de passer un moment convivial tous ensemble en découvrant des activités ou des jeux parfois peu commun. </p>
-				<a href="https://antredumeeple.com/" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>
-			
-		
-			<div class="activity-card partner-pro">
-				<div class="partner-type">Pro</div>
-				<h3>Le Décalé³</h3>
-				<p>Bar à jeu et Boutique de jeux de société à Fécamp.</p>
-				<a href="https://www.facebook.com/profile.php?id=61591595692183" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>	
-			
-
-			
-			<div class="activity-card partner-pro">
-				<div class="partner-type">Pro</div>
-				<h3>Les éditions Alkonost</h3>
-				<p>L'imaginaire ludique : livres-jeux et jeux de rôle. En plus de son aile "jeu de rôle", Alkonost met la plume à l'honneur avec sa gamme de livres-jeux.</p>
-				<a href="https://alkonost-editions.com/" class="partner-link" target="_blank" rel="noopener">
-					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M18 13V6C18 5.44772 17.5523 5 17 5H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M14 9L18 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M18 5L6 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					Plus d'info
-				</a>
-			</div>
-			
-	</section>
-		
-			<p class="partners-thanks">Un grand merci pour leur générosité !</p>
-		</div>
-	</section>
 
 
-    <section class="festival-practical">
-        <h2>Informations Pratiques</h2>
-        <div class="practical-info">
-            <div class="info-block">
-                <h3>🚗 Venir au Festival</h3>
-                <ul>
-                    <li>Parking gratuit devant les salles et dans les rues adjacentes</li>
-                    <li>Accès en transport en commun : lignes de bus 1 et 2 direction R. Lilly</li>
-                </ul>
-            </div>
-                      
-            <div class="info-block">
-                <h3>📞 Contact Festival</h3>
-                <ul>
-                    <li>Email : jurande.conte.brume@gmail.com</li>
-					<li><a href="https://www.facebook.com/ConteBrume">Facebook</a></li>
-                    <li><a href="https://discord.gg/2U8bhMM2zt">Discord</a></li>
-                </ul>
-            </div>
+        <div class="festival-card">
+            <h3>💰 Tarifs</h3>
+
+            <ul>
+                <li><strong>Entrée libre</strong> pour tous !</li>
+                <li>Buvette et food truck sur place</li>
+            </ul>
         </div>
-    </section>
 
-    <footer>
-        <div class="footer-content">
-            <h3>Jurande des conte-brume</h3>
-            <p>Email : jurande.conte.brume@gmail.com</p>
-            <p>41 rue Paul Doumer, 76400 Fécamp</p>
-            <div class="socials">
-                <a href="https://www.facebook.com/ConteBrume"><img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook"></a>
-                <a href="https://discord.gg/2U8bhMM2zt"><img src="https://img.icons8.com/color/48/discord.png" alt="Discord"></a>
-            </div>
+    </div>
+</section>
+
+
+<!-- Partenaires -->
+<section class="festival-activities">
+
+    <h2>Partenaires</h2>
+
+    <div class="activities-grid">
+
+        <!-- Mairie de Fécamp -->
+        <div class="activity-card partner-institutionnel">
+
+            <h3>Mairie de Fécamp</h3>
+
+            <p>
+                Merci pour le prêt de la salle et l'aide logistique.
+            </p>
+
+            <a
+                href="https://www.ville-fecamp.fr/"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 La Jurande des conte-brume. Tous droits réservés.</p>
+
+
+        <!-- Association de jeu de rôle -->
+        <div class="activity-card partner-asso">
+
+            <div class="partner-type">Association</div>
+
+            <h3>Association de jeu de rôle à Fécamp</h3>
+
+            <p>
+                Venez (re)découvrir le jeu de rôle entre de bonnes mains
+                avec des sessions d'initiation et des campagnes régulières.
+            </p>
+
+            <a
+                href="https://www.facebook.com/arfjdr"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Voir le site
+            </a>
+
         </div>
-    </footer>
+
+
+        <!-- Compagnie of Wargamers -->
+        <div class="activity-card partner-asso">
+
+            <div class="partner-type">Association</div>
+
+            <h3>Compagnie of Wargamers</h3>
+
+            <p>
+                Association dédiée aux jeux de stratégie historiques comme
+                Mémoire 44 : revivez les grandes batailles de l'Histoire
+                dans une ambiance conviviale et mémorielle !
+            </p>
+
+            <a
+                href="https://www.facebook.com/VladRodchenk"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
+        </div>
+
+
+        <!-- Fiscicampus Ludicus -->
+        <div class="activity-card partner-asso">
+
+            <div class="partner-type">Association</div>
+
+            <h3>Fiscicampus Ludicus</h3>
+
+            <p>
+                Association de joueurs passionnés, avertis ou débutants.
+            </p>
+
+            <a
+                href="https://www.facebook.com/groups/786968145746311"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
+        </div>
+
+
+        <!-- L'Antre du Meeple -->
+        <div class="activity-card partner-asso">
+
+            <div class="partner-type">Association</div>
+
+            <h3>L'Antre du Meeple</h3>
+
+            <p>
+                L'Association L'Antre du Meeple vous propose différentes
+                activités autour du jeu de société, du jeu de rôle ou du
+                jeu en général. Notre but est de permettre à nos adhérents
+                de venir s'amuser et de passer un moment convivial tous
+                ensemble, en découvrant des activités ou des jeux parfois
+                peu communs.
+            </p>
+
+            <a
+                href="https://antredumeeple.com/"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
+        </div>
+
+
+        <!-- Le Décalé³ -->
+        <div class="activity-card partner-pro">
+
+            <div class="partner-type">Pro</div>
+
+            <h3>Le Décalé³</h3>
+
+            <p>
+                Bar à jeux et boutique de jeux de société à Fécamp.
+            </p>
+
+            <a
+                href="https://www.facebook.com/profile.php?id=61591595692183"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
+        </div>
+
+
+        <!-- Éditions Alkonost -->
+        <div class="activity-card partner-pro">
+
+            <div class="partner-type">Pro</div>
+
+            <h3>Les éditions Alkonost</h3>
+
+            <p>
+                L'imaginaire ludique : livres-jeux et jeux de rôle.
+                En plus de son aile « jeu de rôle », Alkonost met la plume
+                à l'honneur avec sa gamme de livres-jeux.
+            </p>
+
+            <a
+                href="https://alkonost-editions.com/"
+                class="partner-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M18 13V6C18 5.44772 17.5523 5 17 5H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M14 9L18 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <path
+                        d="M18 5L6 17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                Plus d'info
+            </a>
+
+        </div>
+
+    </div>
+
+    <p class="partners-thanks">
+        Un grand merci à tous nos partenaires pour leur générosité !
+    </p>
+
+</section>
+
+
+<!-- Informations pratiques -->
+<section class="festival-practical">
+
+    <h2>Informations pratiques</h2>
+
+    <div class="practical-info">
+
+        <div class="info-block">
+
+            <h3>🚗 Venir au Festival</h3>
+
+            <ul>
+                <li>
+                    Parking gratuit devant les salles et dans les rues adjacentes.
+                </li>
+
+                <li>
+                    Accès en transport en commun :
+                    lignes de bus 1 et 2, direction R. Lilly.
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="info-block">
+
+            <h3>📞 Contact Festival</h3>
+
+            <ul>
+                <li>
+                    Email :
+                    <a href="mailto:jurande.conte.brume@gmail.com">
+                        jurande.conte.brume@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.facebook.com/ConteBrume"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://discord.gg/2U8bhMM2zt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Discord
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer>
+
+    <div class="footer-content">
+
+        <h3>Jurande des conte-brume</h3>
+
+        <p>
+            Email :
+            <a href="mailto:jurande.conte.brume@gmail.com">
+                jurande.conte.brume@gmail.com
+            </a>
+        </p>
+
+        <p>
+            41 rue Paul Doumer, 76400 Fécamp
+        </p>
+
+
+        <div class="socials">
+
+            <a
+                href="https://www.facebook.com/ConteBrume"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+            >
+                <img
+                    src="https://img.icons8.com/color/48/facebook.png"
+                    alt="Facebook"
+                >
+            </a>
+
+            <a
+                href="https://discord.gg/2U8bhMM2zt"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Discord"
+            >
+                <img
+                    src="https://img.icons8.com/color/48/discord.png"
+                    alt="Discord"
+                >
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            &copy; 2026 La Jurande des conte-brume.
+            Tous droits réservés.
+        </p>
+
+    </div>
+
+</footer>
+```
+
 </body>
 </html>
