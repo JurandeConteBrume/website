@@ -1,150 +1,140 @@
 # Événements La Jurande des Conte-Brume
-2025-08-29 | 20:30 | Jeux de société | jeux
+2026-09-04 | 20:30 | Jeux de société | jeux
+2026-09-08 | 20:00 | Magic           | magic
+2026-09-11 | 20:30 | Jeux de société | jeux
+2026-09-18 | 20:30 | Jeux de société | jeux
+2026-09-22 | 20:00 | Magic           | magic
+2026-09-25 | 20:30 | Jeux de société | jeux
 
-2025-09-02 | 20:00 | Magic | magic
-2025-09-05 | 20:30 | Jeux de société | jeux
-2025-09-06 | 10:00 | Village des asso | special
-2025-09-12 | 20:30 | Jeux de société | jeux
-2025-09-16 | 20:00 | Magic | magic
-2025-09-19 | 20:30 | Jeux de société | jeux
-2025-09-20 | 16:00 | Fête de la nature et du jeu Paluel | special
-2025-09-26 | 20:30 | Jeux de société | jeux
-2025-09-30 | 20:00 | Magic | magic
+2026-10-02 |       | PAS DE SOIREE   | special
+2026-10-03 | 10:00 | Fécamp sort le grand jeu | special
+2026-10-04 | 10:00 | Fécamp sort le grand jeu | special
+2026-10-06 | 20:00 | Magic           | magic
+2026-10-09 | 20:30 | Jeux de société | jeux
+2026-10-16 | 20:30 | Jeux de société | jeux
+2026-10-20 | 20:00 | Magic           | magic
+2026-10-23 | 20:30 | Jeux de société | jeux
+2026-10-30 | 20:30 | Jeux de société | jeux
 
-2025-10-03 |  | PAS DE SOIREE | special
-2025-10-04 | 10:00 | Fécamp sort le grand jeu | special
-2025-10-05 | 10:00 | Fécamp sort le grand jeu | special
-2025-10-10 | 20:30 | Jeux de société | jeux
-2025-10-14 | 20:00 | Magic | magic
-2025-10-17 | 20:30 | Jeux de société | jeux
-2025-10-22 | 12:00 | Tournée Jeunesse | special
-2025-10-24 |  | PAS DE SOIREE | special
-2025-10-28 | 20:00 | Magic | magic
-2025-10-31 | 20:30 | Jeux de société | jeux
+2026-11-03 | 20:00 | Magic           | magic
+2026-11-06 | 20:30 | Jeux de société | jeux
+2026-11-13 | 20:30 | Jeux de société | jeux
+2026-11-17 | 20:00 | Magic           | magic
+2026-11-20 | 20:30 | Jeux de rôles   | jdr
+2026-11-27 | 20:30 | Jeux de société | jeux
 
-2025-11-07 | 20:30 | Jeux de société | jeux
-2025-11-11 | 20:00 | Magic | magic
-2025-11-14 | 20:30 | Jeux de société | jeux
-2025-11-21 | 20:30 | Jeux de société | jeux
-2025-11-22 | 14:00 | Festival de Lillebone | special
-2025-11-23 | 10:00 | Festival de Lillebone | special
-2025-11-25 | 20:00 | Magic - Pauper | magic
-2025-11-28 | 20:30 | Jeux de société | jeux
+2026-12-01 | 20:00 | Magic           | magic
+2026-12-04 | 20:30 | Jeux de société | jeux
+2026-12-11 | 20:30 | Jeux de société | jeux
+2026-12-15 | 20:00 | Magic           | magic
+2026-12-18 | 20:30 | Jeux de société | jeux
+2026-12-25 | 20:30 | PAS DE SOIREE   | special
+2026-12-29 | 20:00 | PAS DE SOIREE   | magic
 
-2025-12-05 | 20:30 | Jeux de rôle | jdr
-2025-12-09 | 20:00 | Magic | magic
-2025-12-12 | 20:30 | Jeux de société | jeux
-2025-12-19 | 20:30 | Jeux de société | jeux
-2025-12-23 | | Vacances | special
-2025-12-26 | | Vacances | special
+2027-01-01 | 20:30 | PAS DE SOIREE   | jeux
+2027-01-08 | 20:30 | Jeux de société | jeux
+2027-01-12 | 20:00 | Magic           | magic
+2027-01-15 | 20:30 | Jeux de société | jeux
+2027-01-22 | 20:30 | Jeux de société | jeux
+2027-01-26 | 20:00 | Magic           | magic
+2027-01-29 | 20:30 | Jeux de société | jeux
 
-2026-01-02 | | Vacances | special
-2026-01-06 | 20:00 | Magic | magic
-2026-01-09 | 20:30 | Jeux de société | jeux
-2026-01-16 | 20:30 | Jeux de société | jeux
-2026-01-20 | 20:00 | Magic | magic
-2026-01-23 | 20:30 | Jeux de société | jeux
-2026-01-27 | 20:00 | Draft Lorwyn | magic
-2026-01-30 | 20:30 | Jeux de société | jeux
+2027-02-05 | 20:30 | Jeux de société | jeux
+2027-02-09 | 20:00 | Magic           | magic
+2027-02-12 | 20:30 | Jeux de société | jeux
+2027-02-19 | 20:30 | Jeux de société | jeux
+2027-02-23 | 20:00 | Magic           | magic
+2027-02-26 | 20:30 | Jeux de société | jeux
 
-2026-02-03 | 20:00 | Magic | magic
-2026-02-06 | 20:30 | Jeux de société | jeux
-2026-02-13 | 20:30 | Jeux de société | jeux
-2026-02-17 | 20:00 | Magic | magic
-2026-02-20 | 20:30 | Jeux de société | jeux
-2026-02-27 | 20:30 | Jeux de société | jeux
+2027-03-05 | 20:30 | Jeux de société | jeux
+2027-03-09 | 20:00 | Magic           | magic
+2027-03-12 | 20:30 | Jeux de rôles   | jdr
+2027-03-19 | 20:30 | Jeux de société | jeux
+2027-03-23 | 20:00 | Magic           | magic
+2027-03-26 | 20:30 | Jeux de société | jeux
 
-2026-03-03 | 20:00 | Magic | magic
-2026-03-06 | 20:30 | Jeux de rôle | jdr
-2026-03-13 | 20:30 | Jeux de société | jeux
-2026-03-17 | 20:00 | Magic | magic
-2026-03-20 | 20:30 | Jeux de société | jeux
-2026-03-27 | 20:30 | Jeux de société | jeux
-2026-03-31 | 20:00 | Magic | magic
+2027-04-02 | 20:30 | Jeux de société | jeux
+2027-04-06 | 20:00 | Magic           | magic
+2027-04-09 | 20:30 | Jeux de société | jeux
+2027-04-16 | 20:30 | Jeux de société | jeux
+2027-04-20 | 20:00 | Magic           | magic
+2027-04-23 | 20:30 | Jeux de société | jeux
+2027-04-30 | 20:30 | Jeux de société | jeux
 
-2026-04-03 | 20:30 | Jeux de société | jeux
-2026-04-10 | 20:30 | Jeux de société | jeux
-2026-04-14 | 20:00 | Magic | magic
-2026-04-17 | 20:30 | Jeux de société | jeux
-2026-04-24 | 20:30 | Jeux de société | jeux
-2026-04-28 | 20:00 | Magic | magic
+2027-05-04 | 20:00 | Magic           | magic
+2027-05-07 | 20:30 | Jeux de société | jeux
+2027-05-14 | 20:30 | Jeux de société | jeux
+2027-05-18 | 20:00 | Magic           | magic
+2027-05-21 | 20:30 | Jeux de société | jeux
+2027-05-28 | 20:30 | Jeux de société | jeux
 
-2026-05-01 | 20:30 | Jeux de société | jeux
-2026-05-08 | 20:30 | Jeux de société | jeux
-2026-05-12 | 20:00 | Magic | magic
-2026-05-15 | 20:30 | Jeux de société | jeux
-2026-05-22 | 20:30 | Jeux de société | jeux
-2026-05-26 | 20:00 | Magic | magic
-2026-05-29 | 20:30 | Jeux de société | jeux
+2027-06-01 | 20:00 | Magic           | magic
+2027-06-04 | 20:30 | Jeux de société | jeux
+2027-06-11 | 20:30 | Jeux de société | jeux
+2027-06-15 | 20:00 | Magic           | magic
+2027-06-18 | 20:30 | Jeux de rôles   | jdr
+2027-06-25 | 20:30 | Jeux de société | jeux
+2027-06-29 | 20:00 | Magic           | magic
 
-2026-06-05 | 20:30 | Jeux de rôle | jdr
-2026-06-09 | 20:00 | Magic | magic
-2026-06-12 | 20:30 | Jeux de société | jeux
-2026-06-19 | 20:30 | Jeux de société | jeux
-2026-06-23 | 20:00 | Magic | magic
-2026-06-26 | 20:30 | Jeux de société | jeux
-
-2026-07-01 |  | Vacances | special
-2026-07-02 |  | Vacances | special
-2026-07-03 |  | Vacances | special
-2026-07-04 |  | Vacances | special
-2026-07-05 |  | Vacances | special
-2026-07-06 |  | Vacances | special
-2026-07-07 |  | Vacances | special
-2026-07-08 |  | Vacances | special
-2026-07-09 |  | Vacances | special
-2026-07-10 |  | Vacances | special
-2026-07-11 |  | Vacances | special
-2026-07-12 |  | Vacances | special
-2026-07-13 |  | Vacances | special
-2026-07-14 |  | Vacances | special
-2026-07-15 |  | Vacances | special
-2026-07-16 |  | Vacances | special
-2026-07-17 |  | Vacances | special
-2026-07-18 |  | Vacances | special
-2026-07-19 |  | Vacances | special
-2026-07-20 |  | Vacances | special
-2026-07-21 |  | Vacances | special
-2026-07-22 |  | Vacances | special
-2026-07-23 |  | Vacances | special
-2026-07-24 |  | Vacances | special
-2026-07-25 |  | Vacances | special
-2026-07-26 |  | Vacances | special
-2026-07-27 |  | Vacances | special
-2026-07-28 |  | Vacances | special
-2026-07-29 |  | Vacances | special
-2026-07-30 |  | Vacances | special
-2026-07-31 |  | Vacances | special
-
-2026-08-01 |  | Vacances | special
-2026-08-02 |  | Vacances | special
-2026-08-03 |  | Vacances | special
-2026-08-04 |  | Vacances | special
-2026-08-05 |  | Vacances | special
-2026-08-06 |  | Vacances | special
-2026-08-07 |  | Vacances | special
-2026-08-08 |  | Vacances | special
-2026-08-09 |  | Vacances | special
-2026-08-10 |  | Vacances | special
-2026-08-11 |  | Vacances | special
-2026-08-12 |  | Vacances | special
-2026-08-13 |  | Vacances | special
-2026-08-14 |  | Vacances | special
-2026-08-15 |  | Vacances | special
-2026-08-16 |  | Vacances | special
-2026-08-17 |  | Vacances | special
-2026-08-18 |  | Vacances | special
-2026-08-19 |  | Vacances | special
-2026-08-20 |  | Vacances | special
-2026-08-21 |  | Vacances | special
-2026-08-22 |  | Vacances | special
-2026-08-23 |  | Vacances | special
-2026-08-24 |  | Vacances | special
-2026-08-25 |  | Vacances | special
-2026-08-26 |  | Vacances | special
-2026-08-27 |  | Vacances | special
-2026-08-28 |  | Vacances | special
-2026-08-29 |  | Vacances | special
-2026-08-30 |  | Vacances | special
-2026-08-31 |  | Vacances | special
-
+2027-07-01 |  | Vacances | special
+2027-07-02 |  | Vacances | special
+2027-07-03 |  | Vacances | special
+2027-07-04 |  | Vacances | special
+2027-07-05 |  | Vacances | special
+2027-07-06 |  | Vacances | special
+2027-07-07 |  | Vacances | special
+2027-07-08 |  | Vacances | special
+2027-07-09 |  | Vacances | special
+2027-07-10 |  | Vacances | special
+2027-07-11 |  | Vacances | special
+2027-07-12 |  | Vacances | special
+2027-07-13 |  | Vacances | special
+2027-07-14 |  | Vacances | special
+2027-07-15 |  | Vacances | special
+2027-07-16 |  | Vacances | special
+2027-07-17 |  | Vacances | special
+2027-07-18 |  | Vacances | special
+2027-07-19 |  | Vacances | special
+2027-07-20 |  | Vacances | special
+2027-07-21 |  | Vacances | special
+2027-07-22 |  | Vacances | special
+2027-07-23 |  | Vacances | special
+2027-07-24 |  | Vacances | special
+2027-07-25 |  | Vacances | special
+2027-07-26 |  | Vacances | special
+2027-07-27 |  | Vacances | special
+2027-07-28 |  | Vacances | special
+2027-07-29 |  | Vacances | special
+2027-07-30 |  | Vacances | special
+2027-07-31 |  | Vacances | special
+2027-08-01 |  | Vacances | special
+2027-08-02 |  | Vacances | special
+2027-08-03 |  | Vacances | special
+2027-08-04 |  | Vacances | special
+2027-08-05 |  | Vacances | special
+2027-08-06 |  | Vacances | special
+2027-08-07 |  | Vacances | special
+2027-08-08 |  | Vacances | special
+2027-08-09 |  | Vacances | special
+2027-08-10 |  | Vacances | special
+2027-08-11 |  | Vacances | special
+2027-08-12 |  | Vacances | special
+2027-08-13 |  | Vacances | special
+2027-08-14 |  | Vacances | special
+2027-08-15 |  | Vacances | special
+2027-08-16 |  | Vacances | special
+2027-08-17 |  | Vacances | special
+2027-08-18 |  | Vacances | special
+2027-08-19 |  | Vacances | special
+2027-08-20 |  | Vacances | special
+2027-08-21 |  | Vacances | special
+2027-08-22 |  | Vacances | special
+2027-08-23 |  | Vacances | special
+2027-08-24 |  | Vacances | special
+2027-08-25 |  | Vacances | special
+2027-08-26 |  | Vacances | special
+2027-08-27 |  | Vacances | special
+2027-08-28 |  | Vacances | special
+2027-08-29 |  | Vacances | special
+2027-08-30 |  | Vacances | special
+2027-08-31 |  | Vacances | special
