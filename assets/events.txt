@@ -29,9 +29,9 @@
 2026-12-15 | 20:00 | Magic           | magic
 2026-12-18 | 20:30 | Jeux de société | jeux
 2026-12-25 | 20:30 | PAS DE SOIREE   | special
-2026-12-29 | 20:00 | PAS DE SOIREE   | magic
+2026-12-29 | 20:00 | PAS DE SOIREE   | special
 
-2027-01-01 | 20:30 | PAS DE SOIREE   | jeux
+2027-01-01 | 20:30 | PAS DE SOIREE   | special
 2027-01-08 | 20:30 | Jeux de société | jeux
 2027-01-12 | 20:00 | Magic           | magic
 2027-01-15 | 20:30 | Jeux de société | jeux
